@@ -3,38 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Step 2 - Redirecting</title>
+    <title>Step 2 - Intermediate</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin-top: 20%;
-            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
         }
-        h1 {
-            color: #007bff;
+        header {
+            background-color: #28a745;
+            color: white;
+            padding: 20px;
         }
-        p {
-            color: #555;
+        .container {
+            margin-top: 50px;
         }
-        a {
-            color: #007bff;
+        .button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
             text-decoration: none;
-            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
         }
-        a:hover {
-            text-decoration: underline;
+        .button:hover {
+            background-color: #1e7e34;
         }
     </style>
-    <script>
-        // Automatically redirect to the desired link after 5 seconds
-        setTimeout(() => {
-            window.location.href = "https://your-desired-link.com";
-        }, 5000); // Redirect after 5 seconds
-    </script>
 </head>
 <body>
-    <h1>Redirecting...</h1>
-    <p>You will be redirected shortly. If not, <a href="https://your-desired-link.com">click here</a>.</p>
+    <header>
+        <h1>Step 2 - Almost There</h1>
+    </header>
+    <div class="container">
+        <p>Click the button below to proceed to the final step.</p>
+        <a class="button" href="step3.html">Proceed to Step 3</a>
+    </div>
 </body>
 </html>
