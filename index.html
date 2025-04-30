@@ -3,83 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samsung S25 Fingerprint - Kernel Version 135</title>
+    <title>Step 1 - Welcome</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            text-align: center;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
         }
         header {
-            background-color: #0057e7;
+            background-color: #007bff;
             color: white;
             padding: 20px;
-            text-align: center;
         }
-        header h1 {
-            margin: 0;
+        .container {
+            margin-top: 50px;
         }
-        main {
-            padding: 20px;
-        }
-        section {
-            margin-bottom: 20px;
-            padding: 15px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        section h2 {
-            color: #0057e7;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: #333;
+        .button {
+            background-color: #007bff;
             color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Samsung S25 Fingerprint Feature</h1>
-        <p>Kernel Version 135</p>
+        <h1>Welcome to the Landing Page</h1>
     </header>
-    <main>
-        <section>
-            <h2>Overview</h2>
-            <p>The Samsung S25 comes equipped with an advanced fingerprint sensor for enhanced security and convenience. This feature is optimized to work seamlessly with Kernel Version 135.</p>
-        </section>
-        <section>
-            <h2>Technical Specifications</h2>
-            <ul>
-                <li><strong>Sensor Type:</strong> Ultrasonic Fingerprint Sensor</li>
-                <li><strong>Kernel Version:</strong> 135</li>
-                <li><strong>Response Time:</strong> 0.2 seconds</li>
-                <li><strong>Scan Area:</strong> 20mm x 30mm</li>
-                <li><strong>Supported OS:</strong> Android 14 and above</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Setup Instructions</h2>
-            <ol>
-                <li>Ensure your Samsung S25 is running Kernel Version 135.</li>
-                <li>Navigate to <strong>Settings > Security > Fingerprint</strong>.</li>
-                <li>Follow the on-screen instructions to register your fingerprint.</li>
-                <li>Test the fingerprint sensor by locking and unlocking your device.</li>
-            </ol>
-        </section>
-        <section>
-            <h2>Additional Resources</h2>
-            <p>For more information, refer to the <a href="https://www.samsung.com/support" target="_blank">Samsung Support Page</a>.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Samsung Electronics. All rights reserved.</p>
-    </footer>
+    <div class="container">
+        <p>Click the button below to proceed to the next step.</p>
+        <a class="button" href="step2.html">Continue</a>
+    </div>
 </body>
 </html>
